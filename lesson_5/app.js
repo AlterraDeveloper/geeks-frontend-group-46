@@ -14,9 +14,6 @@ console.log("reset = ", $btnReset);
 console.log("plus = ", $btnPlus);
 
 // 2. Edit (text, styles, classes)
-// $counter.textContent = String(5);
-// $counter.innerText = "17";
-// $counter.style.color = "gold";
 
 function addCounter() {
     let counterValue = Number($counter.innerText);
